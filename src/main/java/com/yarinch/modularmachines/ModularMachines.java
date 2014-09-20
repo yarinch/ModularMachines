@@ -25,7 +25,7 @@ public class ModularMachines {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        ModBlocks.initTE();
     }
 
     @Mod.EventHandler
